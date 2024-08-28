@@ -7,6 +7,7 @@ def handle_request():
     if request.method == 'GET':
         return jsonify({"message": "Hello, world!"})
     elif request.method == 'POST':
+        print(request.json)
         return jsonify({"message": "POST request received", "data": request.json})
     elif request.method == 'PUT':
         return jsonify({"message": "PUT request received"})
