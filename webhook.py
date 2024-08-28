@@ -15,3 +15,7 @@ def handle_request():
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0',port=8000)
+#create venv
+mkdir venv 
+python3 -m venv venv
+pip3 install flask
