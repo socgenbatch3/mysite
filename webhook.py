@@ -19,3 +19,6 @@ if __name__ == '__main__':
 mkdir venv 
 python3 -m venv venv
 pip3 install flask
+#  run program
+python3 webhook.py
+
